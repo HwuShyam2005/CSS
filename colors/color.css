@@ -1,0 +1,26 @@
+body{
+    background-color: black;
+}
+/*FIRST METHOD*/
+/*NAMING THE COLOUR*/
+#para1{
+    color: red;
+}
+/*SECOND METHOD*/
+/*RGB METHOD*/
+#para2{
+    color: rgb(245, 143, 0);
+}
+/*THIRD METHOD*/
+/*HEXADECIMAL METHOD*/
+#para3{
+    color: #107003;
+}
+/*FOURTH METHOD*/
+/*HSL METHOD*/ 
+     /*THIS METHOD CAN BE ACCESSED BY FIRST CHOOSING THE COLOR DONE IN PARA 1 */
+     /*THEN CLICK ON COLOR BOX TO ACCESS THE VSCODE COLOR PICKER */
+     /*LATER SWITCH FROM RGB TO HSI AND THEN CHOOSE REQUIRED COLOR*/
+#para4{
+    color: hsl(338, 100%, 50%);
+}
