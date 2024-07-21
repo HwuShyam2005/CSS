@@ -1,2 +1,21 @@
 # CSS
 CSS simple cheat sheet
+<br>
+<br>
+In this repository I have uploaded a simple-kinda cheat sheet which can be used while we create Cascading Style Sheets (CSS) for our webpage
+<br>
+<br>
+-> (1) Introduction
+<br>
+Link for inline CSS method: https://hwushyam2005.github.io/CSS/intro/inline.html
+<br>
+Link for internal CSS method: https://hwushyam2005.github.io/CSS/intro/internal.html
+<br>
+Link for external CSS method: https://hwushyam2005.github.io/CSS/intro/external.html
+<br>
+
+-> (2) Colors
+<br>
+Link: https://hwushyam2005.github.io/CSS/colors/color.html
+<br>
+
