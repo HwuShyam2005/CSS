@@ -1,0 +1,57 @@
+/*A DEFAULT SETUP FOR ALL THE THINGS IN THE WEBPAGE*/
+body{
+    /*REMOVING THE DEFAULT SPACE BETWEEN THE H1 AND P BOX AND WITH MARGIN*/
+    margin: 0px;
+}
+.box{
+    border: 5px solid;
+    font-size: 2.5em;
+    width: 250px;
+    height: 250px;
+}
+.box1{
+    border: 5px solid;
+    font-size: 2.5em;
+    width: 250px;
+    height: 250px;
+    background-color: coral;
+    color: white;
+    /*ADDING MARGIN PROPERTIES*/
+    /*METHOD 1 */
+    /*GIVING DEFAULT VALUES IN CLASS*/
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+#a{
+    background-color: pink;
+    color: white;
+    /*METHOD 2*/
+    /*MANUALLY ADDING UNIQUELY FOR ALL SIDES*/
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+#b{
+    background-color: violet;
+    color: white;
+    /*METHOD 3*/
+    /*GIVING ONE VALUE FOR ALL SIDES*/
+    margin: 50px;
+}
+#c{
+    background-color: blueviolet;
+    color: white;
+    /*METHOD 4*/
+    /*BY ADDING AUTO TO ANY SIDE OF THE MARGIN, IT WILL TAKE AS MUCH AS THE SIZE OF THE WEBPAGE*/
+    margin-left: auto;
+}
+#f{
+    background-color: brown;
+    color: white;
+    /*METHOD 5*/
+    /*BY MAKING MARGIN AUTO, THE BOX STAYS IN THE CENTER*/
+    margin: auto;
+}
