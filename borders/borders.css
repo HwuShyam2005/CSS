@@ -1,0 +1,40 @@
+h1{
+    /*ADDING A BORDER STYLE AS A SOLID*/
+    /*THERE ARE DIFFERENT STYLES LIKE*/
+    /*DASHED*/
+    /*DOTTED*/
+    /*DOUBLE*/
+    /*GROOVE*/
+    /*RIDGE*/
+    /*INSET*/
+    /*OUTSET*/
+    /*NONE IF IT HAS ALREADY AND WE WANT TO REMOVE IT*/
+    border-style: solid;
+
+    /*ADDING BORDER WIDTH*/
+    border-width: 3px;
+}
+h2{
+    border-style: dotted;
+    /*ADDING BORDER COLOR*/
+    border-color: pink;
+    /*ADDING BORDER RADIUS TO MAKE IT CURVE AT CORNERS*/
+    border-radius: 10px;
+}
+h3{
+    /*ANOTHER METHOD OF MAKING A BORDER*/
+    /*LESSER CODE*/
+    /*WIDTH STYLE COLOR*/
+    border: 4px dashed violet;
+}
+p{
+    /*ADDING BORDERS SEPARATELY ON ALL 4 SIDES*/
+    /*FOR THE TOP*/
+    border-top: 2px solid black;
+    /*FOR THE BOTTOM*/
+    border-bottom: 4px solid black;
+    /*FOR THE LEFT*/
+    border-left: 2px dashed grey;
+    /*FOR THE RIGHT*/
+    border-right: 4px dashed grey ;
+}
