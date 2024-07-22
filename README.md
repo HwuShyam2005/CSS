@@ -40,4 +40,8 @@ Link: https://hwushyam2005.github.io/CSS/shadows/shadow.html
 Link: https://hwushyam2005.github.io/CSS/margins/margin.html
 <br>
 
+-> (7) Float
+<br>
+Link: https://hwushyam2005.github.io/CSS/float/float.html
+<br>
 
