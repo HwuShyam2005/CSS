@@ -1,0 +1,29 @@
+h1{
+    /*THE VERY FIRST ONE IS THE FONT THAT EXPECTED TO BE SHOWN IN*/
+    /*IF THAT FONT IS NOT RECOGNISED, THE THE SECOND FONT IS SET AS A FALLBACK*/
+    /*OTHER FONTS CAN BE ADDED BY SEPERATING THEM WITH A COMMA*/
+    font-family: verdana , arial  ;
+}
+p{
+    font-family: "lucida console", "sans-serif";
+    /*ADDING A FONT SIZE*/
+    /*METHOD 1*/
+    font-size: 16px;
+}
+h2{
+    /*ADDING A FONT SIZE*/
+    /*METHOD 2*/
+    /*1em MEANS LIKE 100 PERCENT*/
+    /*1.1EM MEANS LIKE 110 PERCENT*/
+    font-size: 1em;
+}
+h3{
+    /*CONVERTING TO BOLD*/
+    font-weight: bold;
+    /*ADDING FONT STYLE*/
+    font-style: italic;
+}
+h4{
+    /*ADDING THE GOOGLE FONT*/
+    font-family: montserrat;
+}
