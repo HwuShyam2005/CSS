@@ -45,3 +45,13 @@ Link: https://hwushyam2005.github.io/CSS/margins/margin.html
 Link: https://hwushyam2005.github.io/CSS/float/float.html
 <br>
 
+-> (8) Overflow
+<br>
+Link: https://hwushyam2005.github.io/CSS/overflow/overflow.html
+<br>
+
+-> (9) Display properties
+<br>
+Link:
+<br>
+
