@@ -1,0 +1,32 @@
+#para1{
+    border: 2px solid;
+    height: 75px;
+    /*NOW KEEPING THIS HEIGHT OF BORDER AS 75PX, WE WILL FIND AN OVERFLOW*/
+    /*MAKING THE OVERFLOW VISIBLE IS JUST AS SAME AS THE DEFAULT*/
+    overflow: visible;
+}
+#para2{
+    border: 2px solid;
+    height: 75px;
+    /*HIDDEN HIDES THE OVERFLOWING CONTENT*/
+    overflow: hidden;  
+}
+#para3{
+    border: 2px solid;
+    height: 75px;
+    /*CLIP IS SIMILAR TO HIDDEN BUT WE CAN ADJUST HOW MUCH IT MUST HIDE*/
+    overflow: clip;  
+    overflow-clip-margin: 15px;
+}
+#para4{
+    border: 2px solid;
+    height: 75px;
+    /*SCROLL PROVIDES A SCROLL BAR AT THE RIGHT AND BOTTOM SIDE OF THE BOX VERTICALLY AND MANUALLY*/
+    overflow: scroll;  
+}
+#para5{
+    border: 2px solid;
+    height: 75px;
+    /*AUTO WILL DECIDE BASED ON THE AMOUNT OF TEXT PRESENT IN THE BOX AND PROVIDES SCROLL BAR IF NEEDED*/
+    overflow: auto;  
+}
