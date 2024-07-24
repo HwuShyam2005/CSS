@@ -52,6 +52,6 @@ Link: https://hwushyam2005.github.io/CSS/overflow/overflow.html
 
 -> (9) Display properties
 <br>
-Link:
+Link: https://hwushyam2005.github.io/CSS/displayprop/displayprop.html
 <br>
 
