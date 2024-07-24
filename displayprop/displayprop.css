@@ -1,0 +1,49 @@
+div {
+    /*BLOCK EXAMPLE*/
+    /*DISPLAYS IN BLOCK FORMAT*/
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+span{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    display:block
+}
+
+.abc{
+   background-color: white;
+}
+.abc .text1{
+    /*INLINE-BLOCK EXAMPLE*/
+    /*DISPLAYS IN BLOCK-INLINE FORMAT*/
+    background-color: green;
+    color: black;
+    width: 500;
+    height: 100px;
+    display: inline-block;
+}
+
+.def{
+    background-color: yellow;
+}
+.def .text2{
+    /*NONE EXAMPLE*/
+    /*DISPLAYS NOTHING*/
+    color: black;
+    width: 500px;
+    height: 90px;
+    display: none;
+}
+.def .text3{
+    /*CHANGING VISIBILITY TO HIDDEN EXAMPLE*/
+    /*SIMILAR TO NONE*/
+    /*BUT SPACE WILL BE STILL TAKEN UP*/
+    /*DISPLAYS NOTHING*/
+    color: black;
+    width: 500px;
+    height: 90px;
+    visibility: hidden;
+}
+
