@@ -1,0 +1,78 @@
+#box1{
+    /*RELATIVE*/
+    /*METHOD 1*/
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    position: relative;
+    top: 100px;
+    left: 100px; 
+}
+#box2{
+    /*RELATIVE*/
+    /*METHOD 2*/
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    position: relative;
+    top: -100px;
+    left: -5px; 
+}
+#box3 {
+    /*FIXED*/
+    /*METHOD 1*/
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    position: fixed;
+    top: 400px;
+    left: 200px; 
+}
+#box4 {
+    /*FIXED*/
+    /*METHOD 2*/
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    position: fixed;
+    right: 0px;
+    bottom: 0px; 
+}
+#box5 {
+    /*ABSOLUTE*/
+    width: 200px;
+    height: 200px;
+    background-color: purple;
+    position: relative;
+    bottom: 550px;
+    left: 350px;
+}
+#box6 {
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    position: absolute;
+}
+#box7 {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    position: sticky;
+    top: 0px;
+}
+#box8 {
+    /*STATIC*/
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    position: relative;
+    bottom: 550px;
+    left: 350px;
+}
+#box9 {
+    width: 100px;
+    height: 100px;
+    background-color: magenta;
+    position: absolute;
+}
+
