@@ -57,5 +57,13 @@ Link: https://hwushyam2005.github.io/CSS/displayprop/displayprop.html
 
 -> (10) Positions
 <br>
-Link:https://hwushyam2005.github.io/CSS/positions/position.html
+Link: https://hwushyam2005.github.io/CSS/positions/position.html
 <br>
+
+-> (11) Background image
+<br>
+Link for the main file: https://hwushyam2005.github.io/CSS/backgroundpic/backpic.html
+<br>
+Link for the alternative file: https://hwushyam2005.github.io/CSS/backgroundpic/alternative.html
+<br>
+
