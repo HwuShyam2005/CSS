@@ -1,0 +1,12 @@
+body {
+    /*IF SMALLER IMAGES ARE ADDED, IMAGE GETS MULTIPLIED*/
+    background-image: url(https://img.freepik.com/free-photo/grunge-paper-background_1048-10791.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1721779200&semt=ais_user);
+    /*THIS CAN BE PREVENTED BY CHANGING BACKGROUND REPEAT*/
+    background-repeat: no-repeat;
+    /*CHANGE THE BACKGROUND POSITION*/
+    background-position: center;
+    /*THEN ADD BACKGROUND ATTACHMENT TO MAKE IT STAY CENTRE*/
+    background-attachment: fixed;
+    /*FINALLY LETS COVER THE BACKGROUND*/
+    background-size: cover;
+}
