@@ -1,0 +1,30 @@
+#container{
+    border: 2px solid black;
+}
+/*1ST ONE*/
+/*DESCENDANT COMBINATOR*/
+/*JUST AN EMPTY SPACE BETWEEN THE CONTAINER AND P*/
+#container p{
+    background-color: aqua;
+}
+/*2ND ONE*/
+/*CHILDREN COMBINATOR*/
+/* > */
+/*USED FOR APPLYING FOR THE CHILDREN OF PARENT ID */
+#container > p{
+    background-color: yellow;
+}
+/*3RD ONE*/
+/*GENERAL SIBLING CHARACTER*/
+/* ~ */
+/*ALL OTHER CHILDREN GET TAKEN OUTSIDE THE CONTAINER*/
+#container ~ p{
+    background-color: lightgreen;
+}
+/*4TH ONE*/
+/*ADJACENT SIBLING*/
+/* + */
+/*THE NEXT IMMEDIATE CHILD WILL BE TAKEN OUTSIDE THE CONTAINER*/
+#container + p{
+    background-color: lightsalmon;
+}
