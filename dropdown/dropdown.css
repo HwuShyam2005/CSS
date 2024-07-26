@@ -1,0 +1,39 @@
+.dropdown{
+    display: inline-block;
+}
+/*WE CAN CHANGE THE WAY OF CURSOR WHILE IT HOVERS ON THE BUTTON BUY ADDING THE CURSOR*/
+.dropdown button{
+    background-color: green;
+    color: white;
+    padding: 10px 15px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+/*ADDING THE CSS FOR THE FILES IN DROP DOWN MENY*/
+.dropdown a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+/*WE CHANGE THE DISPLAY OF THE CONTENTS TO PREVENT UNECESSARY SPACE TAKING*/
+/*INITIALLY WE ARE GOING TO MAKE THE FILES IN DROP DOWN TO NOT BE DISPLAYED*/
+.dropdown .content{
+    display: none;
+    position: absolute;
+    background-color: pink;
+    min-width: 100px;
+    box-shadow: 2px 2px 5px black;
+}
+/*LATER WE ADD A HOVER ON THE CONTENT AND MAKE IT BLOCK WHEN OUR CURSOR IS ON THAT BUTTON*/
+.dropdown:hover .content{
+    display: block;
+}
+/*COLOR CHANGE ON THE BUTTON WHEN ITS HOVERED*/
+.dropdown:hover button{
+    background-color: blueviolet;
+}
+/*COLOR CHANGE ON THE FILES WHEN ITS HOVERED*/
+.dropdown a:hover{
+    background-color: brown;
+}
