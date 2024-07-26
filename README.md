@@ -77,5 +77,10 @@ Link: https://hwushyam2005.github.io/CSS/combinators/combinator.html
 Link: https://hwushyam2005.github.io/CSS/pseudoclasses/pseudoclass.html
 <br>
 
+-> (14) Pseudo Elements
+<br>
+Link: https://hwushyam2005.github.io/CSS/pseudoelements/pseudoelements.html
+<br>
+
 
 
