@@ -1,0 +1,20 @@
+.pagination{
+    text-align: center;
+}
+.pagination a{
+    color: black;
+    text-decoration: none;
+    padding: 8px 15px;
+    display: inline-block;
+}
+/*SELECTING THE PAGE THAT IS ACTIVE*/
+.pagination a.active{
+    background-color: green;
+    font-weight: bold;
+    border-radius: 5px;
+}
+/*SELCTING THE PAGES THAT ARE NOT ACTIVE*/
+.pagination a:hover:not(.active){
+    background-color: darkslategray;
+    border-radius: 5px;
+}
