@@ -1,0 +1,35 @@
+/*CHANGING THE APPEARANCE OF THE FIRST LETTER*/
+h1::first-letter{
+    font-size: 200px;
+    font-style: italic;
+}
+/*CHANGING THE APPEARANCE OF THE FIRST LINE*/
+p::first-line{
+    background-color: pink;
+}
+/*CHANGING THE COLOR OF TEXT WHEN WE SELECT*/
+p::selection{
+    color: green;
+    background-color: darkslategray;
+}
+
+/*EMOJI CAN BE ADDED BY PRESSING WINDOWS AND SEMICOLON TOGETHER*/
+/*BEFORE IS BASICALLY ADDING ANYTHING RIGHT BEFORE THE TEXT PRESENT IN THE LIST*/
+/*AFTER IS BASICALLY ADDING ANYTHING AFTER THE TEXT PRESENT IN THE LIST*/
+#Make li::before{
+    content: "😂";
+}
+#a::after{
+    content: "🚗";
+}
+#b::after{
+    content: "🚘";
+}
+#c::after{
+    content: "🚙";
+}
+/*ADDING DIFFERENT MARKER*/
+#Make li::marker{
+    content: "✅";
+    font-size: 25px;
+}
