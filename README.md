@@ -68,8 +68,13 @@ Link for the alternative file: https://hwushyam2005.github.io/CSS/backgroundpic/
 <br>
 
 -> (12) Combinators
-<br>
+<br> 
 Link: https://hwushyam2005.github.io/CSS/combinators/combinator.html
+<br>
+
+-> (13) Pseudo Classes
+<br>
+Link: https://hwushyam2005.github.io/CSS/pseudoclasses/pseudoclass.html
 <br>
 
 
