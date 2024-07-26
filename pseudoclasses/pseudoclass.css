@@ -1,0 +1,96 @@
+* {
+    background-color: brown;
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    color: lightblue;
+}
+
+a:link {
+    color: pink;
+    font-size: 40px;
+    text-decoration: none;
+    margin-left: 45%;
+}
+
+/*HOVER*/
+/*WHEN THE CURSOR IS KEPT ON THE LINK/BUTTON, IT CHANGES ITS BEHAVIOUR*/
+a:hover {
+    color: blueviolet;
+    text-decoration: line-through;
+    font-size: 50px;
+}
+
+/*ACTIVE*/
+/*WORKS WHEN WE ARE CLICKING THE LINK/BUTTON*/
+a:active {
+    color: white;
+}
+
+/*VISITED*/
+/*WORKS AFTER WE VISIT THE WEBSITE AND RETURN BACK*/
+a:visited {
+    color: green;
+}
+
+
+/*FOR CREATING A SUPRISE MESSAGE*/
+/*WE CAN FIRST MAKE THE PARAGRAPH DISPLAY TO NONE*/
+/*LATER CHANGING IT TO ANYTHING ELSE OTHER THAAN NONE AFTER WE ADD A HOVER*/
+#greeting{
+font-size: 30px;
+margin-left: 45%;
+color: white;
+}
+
+#greeting p {
+    background-color: darksalmon;
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+    display: none;
+}
+#greeting:hover p{
+    display:block;
+}
+
+
+
+li {
+    border: 2px solid black;
+}
+
+/*TO CREATE LIKE A HIGHLIGHTING EFFECT ON THE LIST ITEM WE CHOOSE*/
+li:hover {
+    background-color: goldenrod;
+}
+
+/*DOES THE OPPOSITE BY GIVING ANOTHER COLOR UNTILL ITS HOVERED */
+li:not(:hover) {
+    background-color: darkgoldenrod;
+}
+
+/*WE CAN MANUALLY GIVE COLOR FOR EACH LIST ELEMENTS BY*/
+li:nth-child(7) {
+    background-color: darkred;
+}
+
+/*AND WE CAN ALSO ADD ODD ONES OR EVEN ONES TOO*/
+li:nth-child(even) {
+    background-color: cadetblue;
+}
+
+/*SUPPOSE WE WANT TO ADD FOR EVERY THIRD ELEMENT*/
+li:nth-child(3n) {
+    background-color: magenta;
+}
+
+/*WE CAN ALSO DETERMINE WHERE TO START THE COLORING OF EVERY THIRD ELEMENT BY*/
+li:nth-child(4n+1) {
+    background-color: floralwhite;
+}
+
