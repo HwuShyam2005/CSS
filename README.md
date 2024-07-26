@@ -82,5 +82,11 @@ Link: https://hwushyam2005.github.io/CSS/pseudoclasses/pseudoclass.html
 Link: https://hwushyam2005.github.io/CSS/pseudoelements/pseudoelements.html
 <br>
 
+-> (15) Pagination 
+<br>
+Link: https://hwushyam2005.github.io/CSS/pagination/pagination.html
+<br>
+
+
 
 
