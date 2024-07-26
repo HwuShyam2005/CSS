@@ -67,3 +67,10 @@ Link for the main file: https://hwushyam2005.github.io/CSS/backgroundpic/backpic
 Link for the alternative file: https://hwushyam2005.github.io/CSS/backgroundpic/alternative.html
 <br>
 
+-> (12) Combinators
+<br>
+Link: https://hwushyam2005.github.io/CSS/combinators/combinator.html
+<br>
+
+
+
