@@ -108,4 +108,8 @@ Link for contact page: https://hwushyam2005.github.io/CSS/navigationbar/Contact.
 Link: https://hwushyam2005.github.io/CSS/websitelayout/weblayout.html
 <br>
 
+-> (19) Image Gallery
+<br>
+Link: https://hwushyam2005.github.io/CSS/imagegallery/imggallery.html
+<br>
 
