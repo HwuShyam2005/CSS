@@ -103,5 +103,9 @@ Link for product page: https://hwushyam2005.github.io/CSS/navigationbar/Product.
 Link for contact page: https://hwushyam2005.github.io/CSS/navigationbar/Contact.html
 <br>
 
+-> (18) Website Layout
+<br>
+Link: https://hwushyam2005.github.io/CSS/websitelayout/weblayout.html
+<br>
 
 
