@@ -118,4 +118,10 @@ Link: https://hwushyam2005.github.io/CSS/imagegallery/imggallery.html
 Link: https://hwushyam2005.github.io/CSS/icons/icons.html
 <br>
 
+-> (21) Flex Box
+<br>
+Link: https://hwushyam2005.github.io/CSS/flexbox/flexbox.html
+<br>
+
+
 
