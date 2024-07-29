@@ -1,0 +1,70 @@
+#box1{
+    width: 250px;
+    height: 250px;
+    border: 5px solid;
+    font-size: 12em;
+    text-align: center;
+    background-color: tomato;
+
+    /*SCALE ON X AXIS*/
+    /*1 = 100%  & 1.1 = 110%*/
+    /*MAKES THE BOX EXPAND WIDTH WISE*/
+    transform: scaleX(1);
+}
+#box2 {
+    width: 250px;
+    height: 250px;
+    border: 5px solid;
+    font-size: 12em;
+    text-align: center;
+    background-color: maroon;
+    transform: scaleX(2)
+}
+
+
+
+#box3{
+    width: 250px;
+    height: 250px;
+    border: 5px solid;
+    font-size: 12em;
+    text-align: center;
+    background-color: tomato;
+
+    /*SCALE ON X AXIS*/
+    /*1 = 100%  & 1.1 = 110%*/
+    /*MAKES THE BOX EXPAND HEIGHT WISE*/
+    transform: scaleY(1);
+}
+#box4 {
+    width: 250px;
+    height: 250px;
+    border: 5px solid;
+    font-size: 12em;
+    text-align: center;
+    background-color: maroon;
+    transform: scaleY(0.6)
+}
+
+
+
+#box5 {
+    width: 250px;
+    height: 250px;
+    border: 5px solid;
+    font-size: 12em;
+    text-align: center;
+    /*SCALING ON BOTH X AND Y AXIS*/
+    /*X , Y*/
+    background-color: tomato;
+    transform: scale(0.75, 0.75 )
+}
+#box6 {
+    width: 250px;
+    height: 250px;
+    border: 5px solid;
+    font-size: 12em;
+    text-align: center;
+    background-color: maroon;
+    transform: scale(0.5,0.5)
+}
