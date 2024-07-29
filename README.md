@@ -113,3 +113,9 @@ Link: https://hwushyam2005.github.io/CSS/websitelayout/weblayout.html
 Link: https://hwushyam2005.github.io/CSS/imagegallery/imggallery.html
 <br>
 
+-> (20) Icons
+<br>
+Link: https://hwushyam2005.github.io/CSS/icons/icons.html
+<br>
+
+
