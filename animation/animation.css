@@ -1,0 +1,357 @@
+/*ADDING THE ANIMATIONS*/
+* {
+    background-color: goldenrod;
+}
+
+#box1 {
+    width: 250px;
+    height: 250px;
+    background-color: darkred;
+    font-size: 10em;
+    text-align: center;
+    animation: slideLeft;
+    animation-duration: 5s;
+}
+
+/*BOX MOVES FROM RIGHT TO LEFT*/
+@keyframes slideLeft {
+    from {
+        transform: translateX(200%);
+    }
+}
+
+#box2 {
+    width: 250px;
+    height: 250px;
+    background-color: darkblue;
+    font-size: 10em;
+    text-align: center;
+    animation: slideRight;
+    animation-duration: 5s;
+}
+
+/*BOX MOVES FROM LEFT TO RIGHT*/
+@keyframes slideRight {
+    to {
+        transform: translateX(200%);
+    }
+}
+
+#box3 {
+    width: 250px;
+    height: 250px;
+    background-color: yellow;
+    font-size: 10em;
+    text-align: center;
+    animation: slideUp;
+    animation-duration: 5s;
+}
+
+/*BOX MOVES FROM BOTTOM TO TOP*/
+@keyframes slideUp {
+    from {
+        transform: translateY(200%);
+    }
+}
+
+#box4 {
+    width: 250px;
+    height: 250px;
+    background-color: darkgreen;
+    font-size: 10em;
+    text-align: center;
+    animation: slideDown;
+    animation-duration: 5s;
+}
+
+/*BOX MOVES FROM TOP TO BOTTOM*/
+@keyframes slideDown {
+    to {
+        transform: translateY(200%);
+    }
+}
+
+#box5 {
+    width: 250px;
+    height: 250px;
+    background-color: pink;
+    font-size: 10em;
+    text-align: center;
+    animation: rotate1;
+    animation-duration: 5s;
+}
+
+/*BOX ROTATES UPSIDE DOWN*/
+@keyframes rotate1 {
+    100% {
+        transform: rotateX(360deg);
+    }
+}
+
+#box6 {
+    width: 250px;
+    height: 250px;
+    background-color: purple;
+    font-size: 10em;
+    text-align: center;
+    animation: rotate2;
+    animation-duration: 5s;
+}
+
+/*BOX ROTATES FROM LEFT TO RIGHT*/
+@keyframes rotate2 {
+    100% {
+        transform: rotateY(360deg);
+    }
+}
+
+#box7 {
+    width: 250px;
+    height: 250px;
+    background-color: brown;
+    font-size: 10em;
+    text-align: center;
+    animation: rotate3;
+    animation-duration: 5s;
+}
+
+/*BOX SPINS 360 DEGREE*/
+@keyframes rotate3 {
+    100% {
+        transform: rotateZ(360deg);
+    }
+}
+
+#box8 {
+    width: 250px;
+    height: 250px;
+    background-color: burlywood;
+    font-size: 10em;
+    text-align: center;
+    animation: grow1;
+    animation-duration: 5s;
+}
+
+/*BOX GROWS*/
+@keyframes grow1 {
+    100% {
+        transform: scale(2, 2);
+    }
+}
+
+#box9 {
+    width: 250px;
+    height: 250px;
+    background-color: lightcoral;
+    font-size: 10em;
+    text-align: center;
+    animation: grow2;
+    animation-duration: 5s;
+}
+
+/*BOX GROWS AND SHRINKS*/
+@keyframes grow2 {
+    50% {
+        transform: scale(2, 2);
+    }
+}
+
+#box10 {
+    width: 250px;
+    height: 250px;
+    background-color: lightseagreen;
+    font-size: 10em;
+    text-align: center;
+    animation: shrink;
+    animation-duration: 5s;
+}
+
+/*BOX SHRINK*/
+@keyframes shrink {
+    50% {
+        transform: scale(0.5, 0.5);
+    }
+}
+
+#box11 {
+    width: 250px;
+    height: 250px;
+    background-color: darkolivegreen;
+    font-size: 10em;
+    text-align: center;
+    animation: fade;
+    animation-duration: 5s;
+}
+
+/*BOX FADES OUT*/
+@keyframes fade {
+    100% {
+        opacity: 0
+    }
+}
+
+#box12 {
+    width: 250px;
+    height: 250px;
+    background-color: darkslategray;
+    font-size: 10em;
+    text-align: center;
+    animation: fadeIn;
+    animation-duration: 5s;
+    opacity: 0;
+}
+
+/*BOX FADES IN*/
+@keyframes fadeIn {
+    100% {
+        opacity: 1
+    }
+}
+
+#box13 {
+    width: 250px;
+    height: 250px;
+    background-color: whitesmoke;
+    font-size: 10em;
+    text-align: center;
+    animation: colorhange;
+    animation-duration: 5s;
+}
+
+/*BOX CHANGES ITS COLOR*/
+@keyframes colorhange {
+    0% {
+        background-color: whitesmoke;
+    }
+
+    20% {
+        background-color: yellow;
+    }
+
+    40% {
+        background-color: tomato;
+    }
+
+    60% {
+        background-color: orange;
+    }
+
+    80% {
+        background-color: orangered;
+    }
+
+    100% {
+        background-color: red;
+    }
+}
+
+#box14 {
+    width: 250px;
+    height: 250px;
+    background-color: whitesmoke;
+    font-size: 10em;
+    text-align: center;
+    animation: glow;
+    animation-duration: 3s;
+    /*ANIMATION ITERATION CAN BE USED FOR THE NUMBER OF TIMES THE ANIMATION HAS TO BE PERFORMED*/
+    animation-iteration-count: 3;
+}
+
+/*BOX GLOWS*/
+@keyframes glow {
+    50% {
+        box-shadow: 0px 0px 50px black;
+    }
+}
+
+#box15 {
+    width: 250px;
+    height: 250px;
+    background-color: darkred;
+    font-size: 10em;
+    text-align: center;
+    animation: slideLeft;
+    animation-duration: 5s;
+    /*ANIMATION DIRECTION CAN BE CHANGED MANUALLY*/
+    /*REVERSE MAKES IT GO FROM LEFT TO RIGHT AS WE HAVE GIVEN RIGHT TO LEFT BELOW*/
+    animation-direction: reverse;
+}
+
+/*BOX MOVES FROM RIGHT TO LEFT*/
+@keyframes slideLeft {
+    from {
+        transform: translateX(200%);
+    }
+}
+
+#box16 {
+    width: 250px;
+    height: 250px;
+    background-color: red;
+    font-size: 10em;
+    text-align: center;
+    animation: slideLeft;
+    animation-duration: 5s;
+    /*IF YOU WANT IT TO HAPPEN NON-STOP, USE INFINITE IN THE PLACE OF 3 */
+    animation-iteration-count: infinite;
+    /*ALTERNATIVE MAKES IT GO FROM LEFT -> RIGHT -> LEFT*/
+    animation-direction: alternate;
+    /*ANIMATION CAN BE CONTROLLED BY THE PLAY STATE*/
+    /*RUNNING IS JUST THE DEFAULT*/
+    /*PAUSED IS USED FOR STOPPING THE ANIMATION*/
+    -moz-animation-play-state: running;
+}
+
+/*BOX MOVES FROM RIGHT TO LEFT*/
+@keyframes slideLeft {
+    from {
+        transform: translateX(200%);
+    }
+}
+
+#box17 {
+    width: 250px;
+    height: 250px;
+    background-color: blueviolet;
+    font-size: 10em;
+    text-align: center;
+    animation: slideLeft;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;
+    /*ANIMATION BEHAVIOUR CAN BE CHANGED*/
+    /*EASE IN OUT IS A WAY THAT AT THE END POINTS IT WORKS DIFFERENTLY*/
+    /*LINEAR MAKE SURE BEHAVIOUR STAYS THE SAME*/
+    animation-timing-function: ease-in-out;
+}
+
+/*BOX MOVES FROM RIGHT TO LEFT*/
+@keyframes slideLeft {
+    from {
+        transform: translateX(200%);
+    }
+}
+
+#box18 {
+    width: 250px;
+    height: 250px;
+    background-color: palevioletred;
+    font-size: 10em;
+    text-align: center;
+    animation: slideLeft;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;
+    /*ANIMATION BEHAVIOUR CAN BE CHANGED*/
+    /*STEPS CREATES A PAUSE EFFECT BASED ON NUMBERS WE PROVIDE*/
+    animation-timing-function: steps(5);
+}
+
+/*BOX MOVES FROM RIGHT TO LEFT*/
+@keyframes slideLeft {
+    from {
+        transform: translateX(200%);
+    }
+}
