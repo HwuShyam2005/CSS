@@ -1,0 +1,32 @@
+.icons{
+    text-align: center;
+}
+.icons a{
+    text-decoration: none;
+    margin-left: 5%;
+}
+/*USUALLY SPACES ARE REPLACED WITH DOTS*/
+.fa-solid.fa-house.fa-5x{
+    color: grey;
+}
+.fa-solid.fa-house.fa-5x:hover{
+    color: darkslategray;
+}
+.fa-brands.fa-youtube.fa-5x{
+    color: red;
+}
+.fa-brands.fa-youtube.fa-5x:hover{
+    color: darkred;
+}
+.fa-brands.fa-twitter.fa-5x{
+    color: lightskyblue;
+}
+.fa-brands.fa-twitter.fa-5x:hover{
+    color: darkslateblue;
+}
+.fa-brands.fa-tiktok.fa-5x{
+    color: black;
+}
+.fa-brands.fa-tiktok.fa-5x:hover{
+    color: darkslategrey;
+}
