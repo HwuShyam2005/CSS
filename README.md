@@ -134,5 +134,10 @@ Link for Skew: https://hwushyam2005.github.io/CSS/transformation/skew/skew.html
 Link for Translate: https://hwushyam2005.github.io/CSS/transformation/translate/translate.html
 <br>
 Link for Multiple Transformation: https://hwushyam2005.github.io/CSS/transformation/multipleones/multiple.html
+<br>
+
+-> (23) Animation
+<br>
+Link: https://hwushyam2005.github.io/CSS/animation/animation.html
 
 
